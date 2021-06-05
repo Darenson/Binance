@@ -23,7 +23,7 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 Clone the GitHub repository
 Install the library requirements from the requirements.txt file
 Run the command python app.py on the terminal. Make sure that you are executing this command from the directory of the file.
-To view the live site visit: 
+To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/](http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/)
 
 ### Setup to run the project
 
