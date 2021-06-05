@@ -48,6 +48,12 @@ Now we need to upload our application code. But since our application is package
 `Dockerrun.aws.json` located [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerrun.aws.json) and edit the Name of the image to your image's name. When you are done, click on the radio button for "Upload your Code", choose this file, and click on "Upload".
 Now click on "Create environment". The final screen that you see will have a few spinners indicating that your environment is being set up. 
 
+
+<img width="1045" alt="Screen Shot 2021-06-04 at 6 19 23 PM" src="https://user-images.githubusercontent.com/78613742/120875603-83e11d00-c561-11eb-9609-63987f19b175.png">
+
+
+
+
 4. ECR
 5. ECS
 6. EKS
