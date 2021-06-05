@@ -23,8 +23,6 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 
 Clone the GitHub repository
 
-To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/](http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/)
-
 ### Setup to run the project
 1. Flask App
 
@@ -66,6 +64,7 @@ Now click on "Create environment". The final screen that you see will have a few
 
 
 
+To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/](http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/)
 
 4. ECR
 
