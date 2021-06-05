@@ -45,7 +45,7 @@ The command we just ran used port 5000 for the server inside the container and e
 3. Elastic Beanstalk
 
 Now we need to upload our application code. But since our application is packaged in a Docker container, we just need to tell EB about our container. Open the 
-'Dockerrun.aws.json' located [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerrun.aws.json) and edit the Name of the image to your image's name. When you are done, click on the radio button for "Upload your Code", choose this file, and click on "Upload".
+`Dockerrun.aws.json` located [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerrun.aws.json) and edit the Name of the image to your image's name. When you are done, click on the radio button for "Upload your Code", choose this file, and click on "Upload".
 Now click on "Create environment". The final screen that you see will have a few spinners indicating that your environment is being set up. 
 
 4. ECR
