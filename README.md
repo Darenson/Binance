@@ -47,6 +47,7 @@ The command we just ran used port 5000 for the server inside the container and e
 Now we need to upload our application code. But since our application is packaged in a Docker container, we just need to tell EB about our container. Open the 
 `Dockerrun.aws.json` located [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerrun.aws.json) and edit the Name of the image to your image's name. When you are done, click on the radio button for "Upload your Code", choose this file, and click on "Upload".
 Now click on "Create environment". The final screen that you see will have a few spinners indicating that your environment is being set up. 
+(Note: the warning sign doesn't seem to impact the app from running)
 
 
 <img width="1045" alt="Screen Shot 2021-06-04 at 6 19 23 PM" src="https://user-images.githubusercontent.com/78613742/120875603-83e11d00-c561-11eb-9609-63987f19b175.png">
