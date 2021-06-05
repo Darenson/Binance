@@ -26,5 +26,11 @@ Run the command python app.py on the terminal. Make sure that you are executing 
 To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/](http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/)
 
 ### Setup to run the project
+1. Flask App
+2. Docker
+3. Elastic Beanstalk
+4. ECR
+5. ECS
+6. EKS
 
 
