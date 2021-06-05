@@ -56,7 +56,15 @@ Now click on "Create environment". The final screen that you see will have a few
 
 
 4. ECR
-5. ECS
-6. EKS
+
+
+<img width="1166" alt="Screen Shot 2021-06-04 at 6 26 18 PM" src="https://user-images.githubusercontent.com/78613742/120875781-7710f900-c562-11eb-8582-fca5ca7df692.png">
+
+
+<img width="1163" alt="Screen Shot 2021-06-04 at 6 23 32 PM" src="https://user-images.githubusercontent.com/78613742/120875729-33b68a80-c562-11eb-8fa5-eac761105047.png">
+
+
+6. ECS
+7. EKS
 
 
