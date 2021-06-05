@@ -7,7 +7,7 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 * I created a customized Docker container of the flask application
 * Pushed the Docker image to Amazon ECR and Elastic Beanstalk
 * Created an AWS ECS and Cluster Task
-* Pull image down and run it on a cloud platform cloud shell: AWS Cloud
+* Pull image down and run it on a cloud platform cloud shell: AWS Cloud9
 * Deployed the application to managed Kubernetes cluster via AWS EKS
 
 ### Prerequisites:
