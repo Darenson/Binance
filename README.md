@@ -36,6 +36,10 @@ Now that we have our Dockerfile, we can build our image. The docker build comman
 The docker build command is quite simple - it takes an optional tag name with -t and a location of the directory containing the Dockerfile.
 <img width="1165" alt="Screen Shot 2021-06-04 at 5 54 18 PM" src="https://user-images.githubusercontent.com/78613742/120874956-f8b25800-c55d-11eb-8024-bcd288e1f958.png">
 
+The last step in this section is to run the image and see if it actually works (replacing my username with yours).
+![Uploading Screen Shot 2021-06-04 at 6.05.07 PM.png…]()
+
+
 3. Elastic Beanstalk
 4. ECR
 5. ECS
