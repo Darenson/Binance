@@ -14,6 +14,7 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 * Python3
 * [Binance API Key](https://www.binance.com/en) (signup for free)
 * [AWS Account](https://aws.amazon.com/free/)
+* AWS CLI
 * [Docker](https://docs.docker.com/)
 
 
@@ -67,6 +68,14 @@ Now click on "Create environment". The final screen that you see will have a few
 
 
 4. ECR
+
+### Login AWS CLI
+To install locally:
+```bash
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+``` 
+
 
 ### Login to ECR
 `aws ecr get-login-password --region REGIONHERE!!!! | docker login --username AWS --password-stdin ACCOUNTIDHERE!!!!.dkr.ecr.REGIONHERE!!!.amazonaws.com`
