@@ -96,7 +96,32 @@ sudo installer -pkg AWSCLIV2.pkg -target /
 <img width="1163" alt="Screen Shot 2021-06-04 at 6 23 32 PM" src="https://user-images.githubusercontent.com/78613742/120875729-33b68a80-c562-11eb-8fa5-eac761105047.png">
 
 
+To confirm that it worked, you should have something on the AWS console that looks like this:
+![Screen Shot 2021-06-05 at 11 08 39 AM](https://user-images.githubusercontent.com/78613742/120901252-82116b00-c5ee-11eb-84ac-9ae46bbf5d9a.png)
+
+
 6. ECS
-7. EKS
+Once the ECR portion is complete, next is going into ECS and creating a cluster. The cluster template I selected was EC2 Linux + Networking.
+Going through all of the provisions for Instance Configuration, Networking I left everything as Default **EXCEPT** EC2 Instance Type as t3.micro and "Enable" Auto assign Public IP.
+Next, go to "Task Definitions" on the ECS menu and create a new task defition for the project. Select EC2 as the launch type, add memory amount for task size
+
+![Screen Shot 2021-06-05 at 11 23 32 AM](https://user-images.githubusercontent.com/78613742/120901540-8048a700-c5f0-11eb-910e-5040981516f6.png)
+
+Then add the container information from ECR (Name, Image) and add Host Port 8888 and Container port 5000 to Port Mappings and click Create.
+
+Next, go back to ECS menu, click on the Cluster and add the new Task to run.
+The application that is loaded in ECR as the Docker Image is now going to be deployed on this machine and should look something like this:
+
+![Screen Shot 2021-06-05 at 11 33 06 AM](https://user-images.githubusercontent.com/78613742/120901816-d407c000-c5f1-11eb-853b-ecd1b4b6eb66.png)
+
+Lastly, to get the container running with the public IP address VPC that is hosting this application we will need to adjust some of the secuirty settings to let incoming traffic in. Go to your EC2 instance for this cluster, on the left hand side under Network Security, click on Security Groups. Click on the Default security group and add TCP Port 8888 to Incoming Inbound Rules.
+To verify: enter your Public IPv4 DNS, add port 8888 and it should be good to go.
+```bash
+http://ec2-18-144-53-204.us-west-1.compute.amazonaws.com:8888/
+```  
+![Screen Shot 2021-06-05 at 11 43 02 AM](https://user-images.githubusercontent.com/78613742/120902097-4927c500-c5f3-11eb-8e26-916eadd8447a.png)
+
+
+8. EKS
 
 
