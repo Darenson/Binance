@@ -28,9 +28,13 @@ To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstal
 1. Flask App
 
 Clone the GitHub repository.
-Install the library requirements from the `requirements.txt` file. Change your `config.py` file with the appropriate API_KEY and API_SECRET.  Run the command python `app.py` on the terminal. Make sure that you are executing this command from the directory of the file.
+Install the library requirements from the `requirements.txt` file. Change your `config.py` file with the appropriate API_KEY and API_SECRET.  Run the command python 
+```bash
+python3 app.py
+```
+on the terminal. Make sure that you are executing this command from the directory of the file.
 
-3. Docker
+2. Docker
 
 #### Dockerfile
 Create a Dockerfile, which is a list of commands that the Docker client calls while creating an image. It's a simple way to automate the image creation process. View sample Dockerfile [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerfile)
