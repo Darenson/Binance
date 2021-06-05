@@ -21,13 +21,16 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 ### To build this project perform the following steps:
 
 Clone the GitHub repository
-Install the library requirements from the requirements.txt file
-Run the command python app.py on the terminal. Make sure that you are executing this command from the directory of the file.
+
 To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/](http://cryptobinancedemo.us-west-1.elasticbeanstalk.com/)
 
 ### Setup to run the project
 1. Flask App
-2. Docker
+
+Clone the GitHub repository.
+Install the library requirements from the `requirements.txt` file. Change the  Run the command python `app.py` on the terminal. Make sure that you are executing this command from the directory of the file.
+
+3. Docker
 
 #### Dockerfile
 Create a Dockerfile, which is a list of commands that the Docker client calls while creating an image. It's a simple way to automate the image creation process. View sample Dockerfile [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerfile)
