@@ -28,7 +28,7 @@ To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstal
 1. Flask App
 
 Clone the GitHub repository.
-Install the library requirements from the `requirements.txt` file. Change the  Run the command python `app.py` on the terminal. Make sure that you are executing this command from the directory of the file.
+Install the library requirements from the `requirements.txt` file. Change your `config.py` file with the appropriate API_KEY and API_SECRET.  Run the command python `app.py` on the terminal. Make sure that you are executing this command from the directory of the file.
 
 3. Docker
 
