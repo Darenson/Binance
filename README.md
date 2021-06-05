@@ -40,6 +40,7 @@ The last step in this section is to run the image and see if it actually works (
 
 <img width="1159" alt="Screen Shot 2021-06-04 at 6 05 07 PM" src="https://user-images.githubusercontent.com/78613742/120875198-8478b400-c55f-11eb-91e1-114bef3e6225.png">
 
+The command we just ran used port 5000 for the server inside the container and exposed this externally on port 8888. Head over to the URL with port 8888, where your app should be live.
 
 3. Elastic Beanstalk
 4. ECR
