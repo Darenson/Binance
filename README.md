@@ -28,6 +28,8 @@ To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstal
 ### Setup to run the project
 1. Flask App
 2. Docker
+<img width="1165" alt="Screen Shot 2021-06-04 at 5 54 18 PM" src="https://user-images.githubusercontent.com/78613742/120874956-f8b25800-c55d-11eb-8024-bcd288e1f958.png">
+
 3. Elastic Beanstalk
 4. ECR
 5. ECS
