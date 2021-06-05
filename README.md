@@ -37,7 +37,8 @@ The docker build command is quite simple - it takes an optional tag name with -t
 <img width="1165" alt="Screen Shot 2021-06-04 at 5 54 18 PM" src="https://user-images.githubusercontent.com/78613742/120874956-f8b25800-c55d-11eb-8024-bcd288e1f958.png">
 
 The last step in this section is to run the image and see if it actually works (replacing my username with yours).
-![Uploading Screen Shot 2021-06-04 at 6.05.07 PM.png…]()
+
+<img width="1159" alt="Screen Shot 2021-06-04 at 6 05 07 PM" src="https://user-images.githubusercontent.com/78613742/120875198-8478b400-c55f-11eb-91e1-114bef3e6225.png">
 
 
 3. Elastic Beanstalk
