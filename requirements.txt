@@ -4,3 +4,7 @@ numpy
 backtrader
 flask
 Flask-Cors
+requests==2.22.0
+pytest
+pylint
+awsebcli
