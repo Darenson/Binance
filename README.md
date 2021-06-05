@@ -100,7 +100,8 @@ To confirm that it worked, you should have something on the AWS console that loo
 ![Screen Shot 2021-06-05 at 11 08 39 AM](https://user-images.githubusercontent.com/78613742/120901252-82116b00-c5ee-11eb-84ac-9ae46bbf5d9a.png)
 
 
-6. ECS
+5. ECS
+
 Once the ECR portion is complete, next is going into ECS and creating a cluster. The cluster template I selected was EC2 Linux + Networking.
 Going through all of the provisions for Instance Configuration, Networking I left everything as Default **EXCEPT** EC2 Instance Type as t3.micro and "Enable" Auto assign Public IP.
 Next, go to "Task Definitions" on the ECS menu and create a new task defition for the project. Select EC2 as the launch type, add memory amount for task size
@@ -122,6 +123,42 @@ http://ec2-18-144-53-204.us-west-1.compute.amazonaws.com:8888/
 ![Screen Shot 2021-06-05 at 11 43 02 AM](https://user-images.githubusercontent.com/78613742/120902097-4927c500-c5f3-11eb-8e26-916eadd8447a.png)
 
 
-8. EKS
+6. EKS
+
+To setup EKS properly, you first have to add the necessary permissions to your IAM user. I added all EKS related admin permissions to the user.
+Next, you will need to install a few dependcies for EKS: Weaveworks and EKSCTL. The documentation can be found [here](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)
+Follow these installation steps:
+```bash
+brew tap weaveworks/tap
+``` 
+```bash
+brew install weaveworks/tap/eksctl
+``` 
+to verify it worked:
+```bash
+eksctl version
+``` 
+next, add a config.yaml and client-deployment.yaml which can be found [here (https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/tree/master/kubernetes)
+
+Then signin to AWS CLI and add the cluster.yaml
+```bash
+eksctl create cluster -f cluster.yaml
+``` 
+It will take several minutes to run, but you should eventually see something like this:
+
+![Screen Shot 2021-06-05 at 12 55 44 PM](https://user-images.githubusercontent.com/78613742/120903850-75484380-c5fd-11eb-8f7f-a8e7e4f31d9f.png)
+
+Next, confirm that kubernetes is now running via AWS CLI and add the client-deployment.yaml file as well:
+
+![Screen Shot 2021-06-05 at 12 59 10 PM](https://user-images.githubusercontent.com/78613742/120903909-d7a14400-c5fd-11eb-967d-399bfc6e629c.png)
+
+Lastly, you will now see the Kubernetes cluster on the AWS portal:
+![Screen Shot 2021-06-05 at 12 57 07 PM](https://user-images.githubusercontent.com/78613742/120903866-9e68d400-c5fd-11eb-9464-fce99ffa8ed5.png)
+ 
+ 
+ 
+ 
+
+
 
 
