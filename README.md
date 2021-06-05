@@ -60,12 +60,14 @@ Now click on "Create environment". The final screen that you see will have a few
 ### Login to ECR
 `aws ecr get-login-password --region REGIONHERE!!!! | docker login --username AWS --password-stdin ACCOUNTIDHERE!!!!.dkr.ecr.REGIONHERE!!!.amazonaws.com`
 
+<img width="1166" alt="Screen Shot 2021-06-04 at 6 26 18 PM" src="https://user-images.githubusercontent.com/78613742/120875781-7710f900-c562-11eb-8582-fca5ca7df692.png">
+
+
 ### Tag the version
 `docker tag test:latest YOURACCOUNT.dkr.ecr.YOURREGION-1.amazonaws.com/YOURREPO:YOURTAG`
 
 <img width="1262" alt="Screen Shot 2021-06-04 at 6 31 14 PM" src="https://user-images.githubusercontent.com/78613742/120876024-5bf2b900-c563-11eb-8dd6-d394a971f32c.png">
 
-<img width="1166" alt="Screen Shot 2021-06-04 at 6 26 18 PM" src="https://user-images.githubusercontent.com/78613742/120875781-7710f900-c562-11eb-8582-fca5ca7df692.png">
 
 ### Upload
 `docker push YOURACCOUNT.dkr.ecr.YOURREGION.amazonaws.com/YOURREPO:YOURTAG`
