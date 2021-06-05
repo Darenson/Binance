@@ -11,10 +11,10 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 * Deployed the application to managed Kubernetes cluster via AWS EKS
 
 ### Prerequisites:
-* Python
-* Binance API Key (signup for free)
+* Python3
+* [Binance API Key](https://www.binance.com/en) (signup for free)
 * [AWS Account](https://aws.amazon.com/free/)
-* Docker
+* [Docker](https://docs.docker.com/)
 
 
 
