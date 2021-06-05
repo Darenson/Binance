@@ -37,6 +37,9 @@ flask run
 ``` 
 on the terminal. Make sure that you are executing this command from the directory of the file.
 
+<img width="1043" alt="Screen Shot 2021-06-05 at 10 17 25 AM" src="https://user-images.githubusercontent.com/78613742/120899991-56d74d80-c5e7-11eb-9cdd-168917e95c92.png">
+
+
 2. Docker
 
 #### Dockerfile
