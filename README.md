@@ -31,6 +31,9 @@ To view the live site visit: [http://cryptobinancedemo.us-west-1.elasticbeanstal
 
 #### Dockerfile
 Create a Dockerfile, which is a list of commands that the Docker client calls while creating an image. It's a simple way to automate the image creation process. View sample Dockerfile [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/blob/master/Dockerfile)
+
+Now that we have our Dockerfile, we can build our image. The docker build command does the heavy-lifting of creating a Docker image from a Dockerfile.
+The docker build command is quite simple - it takes an optional tag name with -t and a location of the directory containing the Dockerfile.
 <img width="1165" alt="Screen Shot 2021-06-04 at 5 54 18 PM" src="https://user-images.githubusercontent.com/78613742/120874956-f8b25800-c55d-11eb-8024-bcd288e1f958.png">
 
 3. Elastic Beanstalk
