@@ -63,12 +63,12 @@ Now click on "Create environment". The final screen that you see will have a few
 ### Tag the version
 `docker tag test:latest YOURACCOUNT.dkr.ecr.YOURREGION-1.amazonaws.com/YOURREPO:YOURTAG`
 
-### Upload
-`docker push YOURACCOUNT.dkr.ecr.YOURREGION.amazonaws.com/YOURREPO:YOURTAG`
-
+<img width="1262" alt="Screen Shot 2021-06-04 at 6 31 14 PM" src="https://user-images.githubusercontent.com/78613742/120876024-5bf2b900-c563-11eb-8dd6-d394a971f32c.png">
 
 <img width="1166" alt="Screen Shot 2021-06-04 at 6 26 18 PM" src="https://user-images.githubusercontent.com/78613742/120875781-7710f900-c562-11eb-8582-fca5ca7df692.png">
 
+### Upload
+`docker push YOURACCOUNT.dkr.ecr.YOURREGION.amazonaws.com/YOURREPO:YOURTAG`
 
 <img width="1163" alt="Screen Shot 2021-06-04 at 6 23 32 PM" src="https://user-images.githubusercontent.com/78613742/120875729-33b68a80-c562-11eb-8fa5-eac761105047.png">
 
