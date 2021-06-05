@@ -13,7 +13,7 @@ This project was built using Python3 to develop Real-Time Candlestick Charts and
 ### Prerequisites:
 * Python
 * Binance API Key (signup for free)
-* AWS Account
+* [AWS Account](https://aws.amazon.com/free/)
 * Docker
 
 
