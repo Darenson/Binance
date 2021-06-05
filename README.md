@@ -3,27 +3,28 @@
 
 
 ### What the project does and how it was made?
-This project has been built using Python3 to develop Real-Time Candlestick Charts and a Crypto Trading Bot using Binance API and Websockets via Flask based web application. Once the Flask App was developed:
-* Created a customized Docker container from the current version of Python that deploys a python application
-* Pushed Docker image to Amazon ECR 
-* Created ECS Cluster Task and Service
-* Pull image down and run it on a cloud platform cloud shell: Google Cloud Shell or AWS
-Cloud9.
-* Deploy an application to managed Kubernetes cluster via AWS EKS
+This project was built using Python3 to develop Real-Time Candlestick Charts and a Crypto Trading Bot using Binance API and Websockets via Flask based web application. Once the Flask App was developed:
+* I created a customized Docker container of the flask application
+* Pushed the Docker image to Amazon ECR and Elastic Beanstalk
+* Created an AWS ECS and Cluster Task
+* Pull image down and run it on a cloud platform cloud shell: AWS Cloud
+* Deployed the application to managed Kubernetes cluster via AWS EKS
+
+### Prerequisites:
+* Python
+* Binance API Key (signup for free)
+* AWS Account
+* Docker
 
 
 
-
-To build this project perform the following steps:
+### To build this project perform the following steps:
 
 Clone the GitHub repository
 Install the library requirements from the requirements.txt file
 Run the command python app.py on the terminal. Make sure that you are executing this command from the directory of the file.
-To view the live site visit 
+To view the live site visit: 
 
-* Create a customized Docker container from the current version of Python that deploys a
-python application
-* Push image to DockerHub or Amazon ECR or Google Container Registry
-* Pull image down and run it on a cloud platform cloud shell: Google Cloud Shell or AWS
-Cloud9.
-* Deploy an application to managed Kubernetes cluster
+### Setup to run the project
+
+
