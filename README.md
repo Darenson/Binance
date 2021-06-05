@@ -31,7 +31,11 @@ Clone the GitHub repository.
 Install the library requirements from the `requirements.txt` file. Change your `config.py` file with the appropriate API_KEY and API_SECRET.  Run the command python 
 ```bash
 python3 app.py
-```
+``` 
+or 
+```python
+flask run
+``` 
 on the terminal. Make sure that you are executing this command from the directory of the file.
 
 2. Docker
