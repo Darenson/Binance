@@ -138,7 +138,7 @@ to verify it worked:
 ```bash
 eksctl version
 ``` 
-next, add a config.yaml and client-deployment.yaml which can be found [here (https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/tree/master/kubernetes)
+next, add a config.yaml and client-deployment.yaml which can be found [here](https://github.com/Darenson/Capstone_BinanceFlask_Docker_Kubernetes/tree/master/kubernetes)
 
 Then signin to AWS CLI and add the cluster.yaml
 ```bash
